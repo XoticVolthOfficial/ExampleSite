@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChadHaxx Hub</title>
+  <meta name="description" content="ChadHaxx hub — community, guides, and safe demo." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <header>
+    <div class="logo">
+      <div class="mark">C</div>
+      <div class="brand">
+        <h1>ChadHaxx</h1>
+        <div class="sub">Free Hub • Community</div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a class="cta" href="https://discord.gg/ry8Y6ZcXFN" target="_blank" rel="noopener">Discord</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>ChadHaxx — Community Hub</h2>
+        <p class="muted">Demo site showing UI, downloads and community links. All script content here is a safe placeholder.</p>
+
+        <div class="actions">
+          <a class="btn primary" href="https://discord.gg/ry8Y6ZcXFN" target="_blank" rel="noopener">Join Discord</a>
+          <button class="btn ghost" id="scrollLoader">Get Script</button>
+        </div>
+
+        <div class="section" id="features">
+          <div class="grid">
+            <div class="feature"><h3>⚡ Instant</h3><p class="muted">Fast access to community resources and downloads.</p></div>
+            <div class="feature"><h3>🔁 Auto Update</h3><p class="muted">Demo auto-refresh and UI updates.</p></div>
+            <div class="feature"><h3>🧰 Multi-Tool</h3><p class="muted">One place for tools & guides (safe demo content).</p></div>
+            <div class="feature"><h3>🔒 Safety</h3><p class="muted">This demo uses safe placeholder content only.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Script (Demo)</h3>
+          <div class="muted small">This is a safe placeholder shown for demonstration purposes.</div>
+
+          <pre class="script" id="scriptBlock">print("Thank you for the Sote!")</pre>
+
+          <div class="controls">
+            <button class="btn primary" id="copyBtn">Copy script</button>
+            <button class="btn ghost" id="downloadBtn">Download .txt</button>
+          </div>
+
+          <div class="note muted">Note: This page is a UI demo. Replace the text locally if you need different content.</div>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="card">
+          <h4>Quick Tips</h4>
+          <ul class="muted" style="padding-left:18px;margin:0">
+            <li>Keep your files backed up.</li>
+            <li>Join Discord for community support.</li>
+            <li>Use content responsibly.</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="section-title">Pricing</div>
+      <div class="pricing">
+        <div class="tier card">
+          <span class="badge">Free</span>
+          <h4>Community</h4>
+          <p class="muted">Access demos, guides, and downloads for free.</p>
+        </div>
+
+        <div class="tier card">
+          <span class="badge">Support</span>
+          <h4>Discord Support</h4>
+          <p class="muted">Get help and updates in our Discord server.</p>
+        </div>
+
+        <div class="tier card">
+          <span class="badge">Experimental</span>
+          <h4>Early Features</h4>
+          <p class="muted">Optional experimental features for community testers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-title">FAQ</div>
+      <div class="faq">
+        <div class="q card"><strong>Is this safe?</strong><p class="muted">Yes — this demo uses placeholder text only.</p></div>
+        <div class="q card"><strong>How do I get support?</strong><p class="muted">Join the Discord linked in the header.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    ChadHaxx Hub • Demo site • <a href="https://discord.gg/ry8Y6ZcXFN" target="_blank" rel="noopener" style="color:var(--accent-2)">discord.gg/ry8Y6ZcXFN</a>
+  </footer>
+
+  <a class="discord-float" href="https://discord.gg/ry8Y6ZcXFN" target="_blank" rel="noopener">Join Discord</a>
+
+  <div class="copy-toast" id="toast">Copied to clipboard</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
